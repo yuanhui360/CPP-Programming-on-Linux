@@ -1,4 +1,4 @@
-Boost C++ library on new release Vesrion 1.75.0 added new librry.
+Boost C++ library on new release Vesrion 1.75.0 added new library.
 
 New Libraries
 JSON:

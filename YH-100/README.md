@@ -10,3 +10,5 @@ This is the case of classical shared memory or memory mapped files.
 Once the processes set up the memory region, the processes can read/write the data
 like any other memory segment without calling the operating system's kernel.
 This also requires some kind of manual synchronization between processes.
+
+YouTube Video demo link : https://youtu.be/uyKLnwBjskg

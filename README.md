@@ -8,6 +8,8 @@ YH-23, Connect to MongoDB,                        https://youtu.be/GKTItIcOb60
 
 YH-31, Setup MySql Connector/C++ on Debian Linux, https://youtu.be/6FWXh6O3knk
 
+YH-78, POSIX Message Queues,                      https://youtu.be/xNUdIveEQxI
+
 YH-93, JSON Stream Parse (Boost C++ Library),     https://youtu.be/CFrW6pVXnwo
 
 YH-94, JSON SAX Style Parser (Boost C++ Library), https://youtu.be/sgW_pW1aWSc

@@ -13,3 +13,5 @@ YH-93, JSON Stream Parse (Boost C++ Library),     https://youtu.be/CFrW6pVXnwo
 YH-94, JSON SAX Style Parser (Boost C++ Library), https://youtu.be/sgW_pW1aWSc
 
 YH-95, Integrate Python/C++ (Python call C++),    https://youtu.be/sUIsaVc6UHs
+
+YH-100, Interprocess Sharing Data between process, https://youtu.be/uyKLnwBjskg

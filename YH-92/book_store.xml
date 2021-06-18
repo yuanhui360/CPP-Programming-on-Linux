@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="cooking" language="Italian">
+    <title>Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price currancy="CAD">30.00</price>
+  </book>
+  <book category="children" language="English">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2007</year>
+    <price currancy="USD">29.99</price>
+  </book>
+  <book category="web" language="Chinese">
+    <title>Learning XML</title>
+    <author>Hui Yuan</author>
+    <year>2010</year>
+    <price currancy="RMB">39.95</price>
+  </book>
+</bookstore>

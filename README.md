@@ -9,7 +9,7 @@ Example of Sub Directory :
 * YH-65, Postgresql DB Query Table using C++ Connector libpqxx, https://youtu.be/Y04aiv4opoA
 * YH-78, POSIX Message Queues,                      https://youtu.be/xNUdIveEQxI
 * YH-86,  iostream over TCP (tcp::iostream),        https://youtu.be/fjld6D4nspI
-* YH-90,  Apache Xerces C++ DOM Programming,         https://youtu.be/PgbCZnyDu08
+* YH-90,  Apache Xerces C++ DOM Parsing,         https://youtu.be/PgbCZnyDu08
 * YH-93, JSON Stream Parse (Boost C++ Library),     https://youtu.be/CFrW6pVXnwo
 * YH-94, JSON SAX Style Parser (Boost C++ Library), https://youtu.be/sgW_pW1aWSc
 * YH-95, Integrate Python/C++ (Python call C++),    https://youtu.be/sUIsaVc6UHs

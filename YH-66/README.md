@@ -5,7 +5,9 @@ table and get items with C++ program  on Linux using AWS-SDK for C++ library
 #include <aws/core/Aws.h>
 
 int main(int argc, char** argv)
+
 {
+
     Aws::SDKOptions options;
     Aws::InitAPI(options);
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DTD stands for Document Type Definition.
+A DTD defines the structure and the legal elements and attributes of an XML document
+#PCDATA means parseable character data
+-->
+
+<!DOCTYPE bookstore [
+  <!ELEMENT bookstore (book+)>
+  <!ELEMENT book   (title,author,year,price)>
+  <!ATTLIST book category CDATA "">
+  <!ATTLIST book language CDATA "English">
+  <!ELEMENT title  (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT year   (#PCDATA)>
+  <!ELEMENT price  (#PCDATA)>
+  <!ATTLIST price currancy CDATA "CAD">
+]>
+
+<!--
+This is book store XML comment example
+The namespace URI is not used by the parser to look up information.
+The purpose of using an URI is to give the namespace a unique nam
+-->
+
+<bookstore>
+  <book category="cooking" language="Italian">
+    <title>Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price currancy="CAD">30.00</price>
+  </book>
+  <book category="children" language="English">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price currancy="USD">29.99</price>
+  </book>
+  <book category="web" language="Chinese">
+    <title>Learning XML</title>
+    <author>Hui Yuan</author>
+    <year>2003</year>
+    <price currancy="RMB">39.95</price>
+  </book>
+</bookstore>

@@ -12,3 +12,4 @@ Independent of the API you want to use, DOM, SAX, or SAX2, your application
 must initialize the Xerces system before using the API, and terminate it after
 you are done. 
 
+Video of this example : https://youtu.be/PgbCZnyDu08

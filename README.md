@@ -9,6 +9,7 @@ Example of Sub Directory :
 * YH-65, Postgresql DB Query Table using C++ Connector libpqxx, https://youtu.be/Y04aiv4opoA
 * YH-66, AWS DynamoDB Examples (AWS-SDK), https://youtu.be/8tcvG8ATzAw
 * YH-78, POSIX Message Queues,                      https://youtu.be/xNUdIveEQxI
+* YH-79,  Threads Lockable Object (std::mutex),      https://youtu.be/s9DEOPKZXxA
 * YH-86,  iostream over TCP (tcp::iostream),        https://youtu.be/fjld6D4nspI
 * YH-90,  Apache Xerces C++ XML DOM Parsing Example,         https://youtu.be/PgbCZnyDu08
 * YH-91,  Apache Xerces C++ XML DOMLS Parsing Example,           https://youtu.be/zOsHns6esUA

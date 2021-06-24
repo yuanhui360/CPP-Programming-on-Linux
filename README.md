@@ -11,6 +11,7 @@ Example of Sub Directory :
 * YH-69, AWS Lambda Invoke Function (HelloWorld), https://youtu.be/8x8TeQmVWwE
 * YH-78, POSIX Message Queues,                      https://youtu.be/xNUdIveEQxI
 * YH-79,  Threads Lockable Object (std::mutex),      https://youtu.be/s9DEOPKZXxA
+* YH-81, AWS Cloud Message Queue (AWS-SQS),         https://youtu.be/iSVfyMb7ivM
 * YH-86,  iostream over TCP (tcp::iostream),        https://youtu.be/fjld6D4nspI
 * YH-90,  Apache Xerces C++ XML DOM Parsing Example,         https://youtu.be/PgbCZnyDu08
 * YH-91,  Apache Xerces C++ XML DOMLS Parsing Example,           https://youtu.be/zOsHns6esUA

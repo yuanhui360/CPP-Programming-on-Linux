@@ -27,3 +27,4 @@ Example of Sub Directory :
 * YH-103, Memory Mapped File (mmap system call),     https://youtu.be/piCsO7t_48o
 * YH-104, POSIX Semaphore,                           https://youtu.be/vqhyp-x4hVc
 * YH-105, Message Passing Interface (Open MPI),      https://youtu.be/EPoqvK_ytxo
+* YH-106, High Performance Computing (Boost.MPI),    https://youtu.be/DaSygiAykp8

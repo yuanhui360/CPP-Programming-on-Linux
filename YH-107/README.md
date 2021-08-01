@@ -13,17 +13,17 @@ Atomic flags are lock-free (this is the only type guaranteed to be lock-free on 
 
 The example file use for this demo :
 example.txt
-00001Hello World I am here
-00002Hello World I am here
-00003Hello World I am here
-00004Hello World I am here
-00005Hello World I am here
-00006Hello World I am here
-....
-19997Hello World I am here
-19998Hello World I am here
-19999Hello World I am here
-20000Hello World I am here
+* 00001Hello World I am here
+* 00002Hello World I am here
+* 00003Hello World I am here
+* 00004Hello World I am here
+* 00005Hello World I am here
+* 00006Hello World I am here
+*    ....
+* 19997Hello World I am here
+* 19998Hello World I am here
+* 19999Hello World I am here
+* 20000Hello World I am here
 
 Total 20000 lines.
 

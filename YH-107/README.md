@@ -7,7 +7,9 @@ synchronize memory accesses among different threads. Atomic operations modify da
 impossible for ANY other thread to access the data in the middle of such an update.
 
 The example of myThreadReadFile.cpp is demonstrate how to use atomic flag to handle non atomic type of object make it become logic lockable.
+
 Atomic flag
+
 Atomic flags are boolean atomic objects that support two operations: test-and-set and clear.
 Atomic flags are lock-free (this is the only type guaranteed to be lock-free on all library implementations).
 

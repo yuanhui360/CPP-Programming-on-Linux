@@ -6,4 +6,21 @@ Atomic types are types that encapsulate a value whose access is guaranteed to no
 synchronize memory accesses among different threads. Atomic operations modify data in a single clock tick, so that it is 
 impossible for ANY other thread to access the data in the middle of such an update.
 
+The example of myThreadReadFile.cpp is demonstrate how to use atomic flag to handle non atomic type of object make it logic lockable.
+The example file use for this demo :
+example.txt
+00001Hello World I am here
+00002Hello World I am here
+00003Hello World I am here
+00004Hello World I am here
+00005Hello World I am here
+00006Hello World I am here
+....
+19997Hello World I am here
+19998Hello World I am here
+19999Hello World I am here
+20000Hello World I am here
+
+Total 20000 lines.
+
 The video demon of this example link : https://youtu.be/Wy8zl9KtzZU

@@ -2,6 +2,7 @@ Example of Sub Directory :
 
 YH-23, Connect to MongoDB, https://youtu.be/GKTItIcOb60
 YH-31, Setup MySql Connector/C++ on Debian Linux, https://youtu.be/6FWXh6O3knk
+YH-59, Simple SSL Server/client, https://youtu.be/P18wPeWtYfQ
 YH-65, Postgresql DB Query Table using C++ Connector libpqxx, https://youtu.be/Y04aiv4opoA
 YH-66, AWS DynamoDB Examples (AWS-SDK), https://youtu.be/8tcvG8ATzAw
 YH-69, AWS Lambda Invoke Function (HelloWorld), https://youtu.be/8x8TeQmVWwE

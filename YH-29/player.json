@@ -1,0 +1,41 @@
+{
+ "1" : {
+    "gender": "Male",
+    "level": "Intermedia",
+    "memberType": "Adult Membership",
+    "name": "Steve Ansrews",
+    "program": [
+        "House League",
+        "Social Double,",
+        "Tournamnet,",
+        "Social Round Robin,"
+        ]
+    },
+
+ "2" : {
+    "gender": "Male",
+    "level": "Beginner",
+    "memberType": "Senior Membership",
+    "name": "John Oliver",
+    "program": [
+        "House League",
+        "Social Double,",
+        "Tournamnet,",
+        "Social Round Robin,"
+        ]
+    },
+
+ "3" {
+    "gender": "Female",
+    "level": "Advance",
+    "memberType": "Adult Membership",
+    "name": "Susan Collin",
+    "program": [
+        "House League",
+        "Social Double,",
+        "Tournamnet,",
+        "Social Round Robin,"
+        ]
+    }
+}
+ 

@@ -1,6 +1,7 @@
 Rabbist is light weight message broker software, this is example of how to write a C++ code to send and receive message using RabbitMQ.
 
 ****** Installation RabitMQ server on Debian/Ubuntu Linux *********
+
 Reference : https://www.rabbitmq.com/install-debian.html#apt-pinning
 
 1) sudo apt-get update -y
@@ -21,6 +22,7 @@ sudo service rabbitmq-server start
 sudo service rabbitmq-server stop
 
 ***** Install RabbitMQ Client C Library *****
+
 Reference:
 https://www.rabbitmq.com/devtools.html
    -> (C and C++) RabbitMQ C client
@@ -46,6 +48,7 @@ https://www.rabbitmq.com/devtools.html
    ldd librabbitmq.so
 
 ***** Install RabbitMQ Client C++ Library *****
+
 reference :
 https://www.rabbitmq.com/devtools.html
    -> AMQP-CPP, a C++ RabbitMQ client

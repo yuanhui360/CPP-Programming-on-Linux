@@ -17,6 +17,7 @@ sudo apt-get install -y erlang-base \
 4) Check RabbitMQ server status
 
 ********* Start/stop/status of RabbitMQ server *******
+
 sudo service rabbitmq-server status
 sudo service rabbitmq-server start
 sudo service rabbitmq-server stop

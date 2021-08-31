@@ -1,6 +1,7 @@
 #include <AMQPcpp.h>
-#include <libssh/libssh.h>
-#include <libssh/libsshpp.hpp>
+
+//  amqp://[$USERNAME[:$PASSWORD]\@]$HOST[:$PORT]/[$VHOST]
+//  AMQP amqp("test:test@192.168.0.106:5672/my_vhost");     // all connect string
 
 using namespace std;
 
@@ -8,19 +9,23 @@ int main (int argc, char** argv) {
 
     std::string msg_body;
 
-    if (argc != 3)
+    if (argc != 4)
     {
-        std::cout << "Usage: my_publish <exchange> <queue>" << std::endl;
+        std::cout << "Usage: my_publish <host:port> <exchange> <queue>" << std::endl;
+        std::cout << "Example :" << std::endl;
+        std::cout << "my_publish \"192.168.0.106:5672\"  my_exchange my_queue" << std::endl;
         return 1;
     }
 
-    char const *ex_name = argv[1];
-    char const *queue_name = argv[2];
+    std::string conn_str = "test:test@";
+    conn_str += std::string(argv[1]);
+    conn_str += std::string("/my_vhost");
+    char const *ex_name = argv[2];
+    char const *queue_name = argv[3];
 
     try {
 
-        //  amqp://[$USERNAME[:$PASSWORD]\@]$HOST[:$PORT]/[$VHOST]
-        AMQP amqp("test:test@localhost:5672/my_vhost");     // all connect string
+        AMQP amqp(conn_str);
 
         AMQPExchange * ex = amqp.createExchange(ex_name);
         ex->Declare(ex_name, "fanout");
@@ -47,6 +52,7 @@ int main (int argc, char** argv) {
             msg_body.clear();
         }
 
+
     } catch (AMQPException &ec) {
         std::cout << ec.getMessage() << std::endl;
     }
@@ -54,3 +60,4 @@ int main (int argc, char** argv) {
     return 0;
 
 }
+

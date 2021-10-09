@@ -92,8 +92,6 @@ int main(int argc, char const *const *argv) {
     port = std::atoi(sVec[1].c_str());
 
     amqp_bytes_t qu_name = amqp_cstring_bytes(argv[2]);
-    // amqp_bytes_t consumer_tag = amqp_cstring_bytes(argv[4]);
-    // amqp_bytes_t consumer_tag = amqp_empty_bytes;
 
     bool include_hdr = false;
     if ( argc == 4 ) {
@@ -156,7 +154,7 @@ int main(int argc, char const *const *argv) {
             break;
         }
 
-        std::cout << "Message Get : " << (char*)my_msg.body.bytes << std::endl;
+        std::cout << "Message Body : " << (char*)my_msg.body.bytes << std::endl;
         if ( include_hdr ) {
             print_message_header(my_msg);
         }

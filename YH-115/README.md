@@ -13,9 +13,9 @@ Install SQLite
 1) Downlaod .tar.gz file
 
 Check Installation:
-ls /usr/local/include/sqlit*.h
-ls /usr/local/lib/libsql*.so
-ls /usr/local/bin/sqlite3
+1) ls /usr/local/include/sqlit*.h
+2) ls /usr/local/lib/libsql*.so
+3) ls /usr/local/bin/sqlite3
 
 SQLite file :
 1) support on different system multi plateform
@@ -24,3 +24,5 @@ SQLite file :
 4) Flaxibility, easy to fecth using SQL statement
 5) Ease to fetch split and sorting
 6) The SQLite file format is stable, cross-platform, and backwards compatible
+
+Video of this example :  https://youtu.be/OoQO1oWYI0A

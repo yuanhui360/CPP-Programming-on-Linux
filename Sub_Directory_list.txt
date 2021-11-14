@@ -34,3 +34,4 @@ YH-110, RabbitMQ Direct,Fanout, Topic Exchange Example (in C++), https://youtu.b
 YH-111, RabbitMQ Consumer using librabbitmq (YH-114),      https://youtu.be/JbjVZdaslgA
 YH-113, RabbitMQ Headers Exchange in C++,  https://youtu.be/YxlxdzkG3ds
 YH-115,  SQLite As Application Data File Format,    https://youtu.be/OoQO1oWYI0A, 2021-10-30
+YH-116, SQLite As Container Object,                https://youtu.be/d-Esqf992ZM, 2021-11-12

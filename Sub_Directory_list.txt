@@ -37,3 +37,4 @@ YH-115, SQLite As Application Data File Format,    https://youtu.be/OoQO1oWYI0A,
 YH-116, SQLite As Container Object,                https://youtu.be/d-Esqf992ZM, 2021-11-12
 YH-117, OpenSSL BIO - Basic I/O Abstraction, https://youtu.be/kxAdd03wyUo, 2021-11-28
 YH-118, OpenSSL EVP Interface,                     https://youtu.be/MMBk_dGgiHI, 2021-12-12
+YH-119, OpenSSL EVP Message Digest,                https://youtu.be/nDOcnUmZA8A, 2022-01-11

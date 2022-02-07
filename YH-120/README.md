@@ -1,0 +1,3 @@
+OpenSSL EVP_PKEY is a generic structure to hold diverse types of asymmetric keys, The EVP_PKE functions provide a high-level interface to asymmetric algorithms. The asymmetric keys themselves are often referred to as the "internal key", and are handled by backends. The RSA key pairs normally refers as private key and public key. The very common and classic usage of EVP_PKEY or RSA key pair are signing, verifying signatures application.  For example, signing normally requires a private key, and verifying signature normally requires a public key.
+
+The exampel video has been posted on YouTube, link is : https://youtu.be/82tjPL6dkCY

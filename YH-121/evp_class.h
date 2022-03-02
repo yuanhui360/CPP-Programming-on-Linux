@@ -94,18 +94,6 @@ namespace LibOpenSSL {
     private:
         EVP_PKEY    *pkey; 
     };
-
-    class MyEVP_Certificate {
-    public:
-        MyEVP_Certificate();
-
-        X509*     load_certificate(std::string cert_file );
-        X509*     get_certificate() { return cert; };
-
-        ~MyEVP_Certificate();
-    private:
-        X509        *cert;
-    };
 };
 
 #endif // SQLITE_TEMPLATE_H

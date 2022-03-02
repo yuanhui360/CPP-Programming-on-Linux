@@ -31,7 +31,7 @@ int main (int argc, char *argv[])
     LibOpenSSL::MyEVP_Key           keyObj;
     EVP_PKEY   *my_pkey = keyObj.load_key("private", argv[2]);
     if ( my_pkey == nullptr ) {
-        std::cout << "Lod Key File Error " << std::endl;
+        std::cout << "Load Key File Error " << std::endl;
         exit(EXIT_FAILURE);
     }
 

@@ -39,3 +39,4 @@ YH-117, OpenSSL BIO - Basic I/O Abstraction, https://youtu.be/kxAdd03wyUo, 2021-
 YH-118, OpenSSL EVP Interface,                     https://youtu.be/MMBk_dGgiHI, 2021-12-12
 YH-119, OpenSSL EVP Message Digest,                https://youtu.be/nDOcnUmZA8A, 2022-01-11
 YH-120, OpenSSL EVP_PKEY,                          https://youtu.be/82tjPL6dkCY, 2022-02-04
+YH-121, OpenSSL EVP_PKEY Encrypt/Decrypt Algorithm, https://youtu.be/e9As9Hopn0E, 2022-03-02

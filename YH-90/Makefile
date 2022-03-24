@@ -2,7 +2,12 @@ CC=g++
 CFLAGS=-c -Wall -g -I./
 LDFLAGS = -lxerces-c-3.2 -std=c++11
 
-all: MyDOMView MyDOMDCreat
+all: MyDOMView MyDOMDCreat MyDOMChange
+
+MyDOMChange: MyDOMChange.o
+    $(CC) MyDOMChange.o $(LDFLAGS) -o MyDOMChange
+MyDOMChange.o: MyDOMChange.cpp
+    $(CC) $(CFLAGS) MyDOMChange.cpp -o MyDOMChange.o
 
 MyDOMView: MyDOMView.o
     $(CC) MyDOMView.o $(LDFLAGS) -o MyDOMView

@@ -12,4 +12,6 @@ Independent of the API you want to use, DOM, SAX, or SAX2, your application
 must initialize the Xerces system before using the API, and terminate it after
 you are done. 
 
+Based on viewer's question, add a new program MyDOMChange.cpp and MyDOMChange.h to demonstrate updaate XML after load and parsed into DOMDocument object.
+
 Video of this example : https://youtu.be/PgbCZnyDu08

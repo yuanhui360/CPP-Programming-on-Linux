@@ -45,6 +45,12 @@ int main(int argc, char *argv[]) {
     }
 
     BIO_free(bio_in);
+    
+    /*
+     *  BIO_flush() normally writes out any internally buffered data, in some cases it is used to signal EOF and that no more data will be written.
+     */
+    
+    BIO_flush(bio_b64);
     BIO_free_all(bio_b64);
     return 0;
 }

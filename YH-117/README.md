@@ -8,3 +8,5 @@ OpenSSL BIO : Stands for Basic I/O Abstration.  The advantage of using BIO is, i
 The example of this video, using file BIO to read/write data from one file to another, with/without encoding.
 The vidoe link of this example cab be viewed : https://youtu.be/kxAdd03wyUo
 
+The example has a bug that for certain size of source encoding, it might lose the final part during encoding. It should call BIO_flush(bio_b64) before free the BIO.
+BIO_flush() normally writes out any internally buffered data, in some cases it is used to signal EOF and that no more data will be written.

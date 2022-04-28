@@ -19,7 +19,7 @@ High Level Verify Signature Algorithm (process):
 Obviously the crypto hash algorithm has to be same in both signing and verifing process.
 
 This C++ example can also be performed through openssl command line API.
-*> openssl dgst -sha256 -sign my_rsa_private_key.pem -out api_signature.dat original_document.txt
-*> openssl dgst -sha256 -verify my_rsa_public_key.pem -signature api_signature.dat original_document.txt
+* openssl dgst -sha256 -sign my_rsa_private_key.pem -out api_signature.dat original_document.txt
+* openssl dgst -sha256 -verify my_rsa_public_key.pem -signature api_signature.dat original_document.txt
 
 The video of this example cab be found on YouTube: https://youtu.be/sbWbfJjfjaU

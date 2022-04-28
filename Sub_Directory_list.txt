@@ -40,3 +40,4 @@ YH-118, OpenSSL EVP Interface,                     https://youtu.be/MMBk_dGgiHI,
 YH-119, OpenSSL EVP Message Digest,                https://youtu.be/nDOcnUmZA8A, 2022-01-11
 YH-120, OpenSSL EVP_PKEY,                          https://youtu.be/82tjPL6dkCY, 2022-02-04
 YH-121, OpenSSL EVP_PKEY Encrypt/Decrypt Algorithm, https://youtu.be/e9As9Hopn0E, 2022-03-02
+YH-122, OpenSSL RSA Digital Signature Algorithm,   https://youtu.be/sbWbfJjfjaU, 2022-04-28

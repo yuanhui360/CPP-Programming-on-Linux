@@ -42,3 +42,4 @@ YH-119, OpenSSL EVP Message Digest,                https://youtu.be/nDOcnUmZA8A,
 YH-120, OpenSSL EVP_PKEY,                          https://youtu.be/82tjPL6dkCY, 2022-02-04
 YH-121, OpenSSL EVP_PKEY Encrypt/Decrypt Algorithm, https://youtu.be/e9As9Hopn0E, 2022-03-02
 YH-122, OpenSSL Digital Signature RSA Sign/Verify Algorithm,   https://youtu.be/sbWbfJjfjaU, 2022-04-28
+YH-123, OpenSSL Digital Certificate (X509),        https://youtu.be/b6yBB8M49PA, 2022-06-15

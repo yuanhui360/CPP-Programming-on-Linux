@@ -44,3 +44,4 @@ YH-121, OpenSSL EVP_PKEY Encrypt/Decrypt Algorithm, https://youtu.be/e9As9Hopn0E
 YH-122, OpenSSL Digital Signature RSA Sign/Verify Algorithm,   https://youtu.be/sbWbfJjfjaU, 2022-04-28
 YH-123, OpenSSL Digital Certificate (X509),        https://youtu.be/b6yBB8M49PA, 2022-06-15
 YH-124, Crypto++ Modern C++ Library (Source-Sink)  https://youtu.be/DwDT2ThIX00, 2022-08-04
+YH-125, Crypto++ Message Digest                    https://youtu.be/8PQvGpAQjbA, 2022-08-29

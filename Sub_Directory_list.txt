@@ -45,3 +45,4 @@ YH-122, OpenSSL Digital Signature RSA Sign/Verify Algorithm,   https://youtu.be/
 YH-123, OpenSSL Digital Certificate (X509),        https://youtu.be/b6yBB8M49PA, 2022-06-15
 YH-124, Crypto++ Modern C++ Library (Source-Sink)  https://youtu.be/DwDT2ThIX00, 2022-08-04
 YH-125, Crypto++ Message Digest                    https://youtu.be/8PQvGpAQjbA, 2022-08-29
+YH-126, Crypto++ AES Encryption and Decryption     https://youtu.be/ZV_jbF5aemw, 2022-09-16

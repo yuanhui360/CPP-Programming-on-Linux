@@ -46,4 +46,5 @@ YH-123, OpenSSL Digital Certificate (X509),        https://youtu.be/b6yBB8M49PA,
 YH-124, Crypto++ Modern C++ Library (Source-Sink)  https://youtu.be/DwDT2ThIX00, 2022-08-04
 YH-125, Crypto++ Message Digest                    https://youtu.be/8PQvGpAQjbA, 2022-08-29
 YH-126, Crypto++ AES Encryption and Decryption     https://youtu.be/ZV_jbF5aemw, 2022-09-16
-YH-127, Crypto++ RSA Cryptographt                  https://youtu.be/2J6sbzeu5A8, 2022-10-01
+YH-127, Crypto++ RSA Cryptographt RSA Key          https://youtu.be/2J6sbzeu5A8, 2022-10-01
+YH-128, Crypto++ RSA  Encryption and Decryption    https://youtu.be/zJ86yVFfjV4, 2022-10-19

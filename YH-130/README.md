@@ -21,14 +21,13 @@ for instance:
 
 ( https://zlib.net/ )
 The example of early videos are using zlib library to processing gzip data format. 
-zlib is standard library in most Linux distribution, 
-
-In general zlib library is a classic C library, and
+zlib is standard library in most Linux distribution, In general zlib library is a classic C library, and
 Crypto++ is Moden C++ library. You can compare both examples and have your own oponion and make your 
 own decision for your project.
 
-YH-50 Read Decooding Gzip File
-YH-49 Decording PDF File page
+Early example of gzip videos : 
+* YH-50 Read Decooding Gzip File : https://youtu.be/byVIs0ECdec
+* YH-49 Decording PDF File page : https://youtu.be/AO6n4pqxuMk
 
 ************************
 Here On linux we created 2 program :

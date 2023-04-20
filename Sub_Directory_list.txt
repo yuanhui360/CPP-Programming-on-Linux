@@ -52,3 +52,4 @@ YH-128, Crypto++ RSA  Encryption and Decryption    https://youtu.be/zJ86yVFfjV4,
 YH-129, Crypto++ RSA Signature Schemes (RSASS)     https://youtu.be/1gah6glSe5s, 2022-10-30
 YH-130, Crypto++ Gzip Lossless Compression         https://youtu.be/fnbOLAuj7yc, 2022-11-22
 YH-131, Libcurl Client Side URL Library            https://youtu.be/IF4FeF-ufkQ, 2023-02-28
+YH-132, Libcurl HTTPS Get/HTTPS Post Request       https://youtu.be/6Ul0Lz5vNws, 2023-03-30

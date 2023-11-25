@@ -53,3 +53,6 @@ YH-129, Crypto++ RSA Signature Schemes (RSASS)     https://youtu.be/1gah6glSe5s,
 YH-130, Crypto++ Gzip Lossless Compression         https://youtu.be/fnbOLAuj7yc, 2022-11-22
 YH-131, Libcurl Client Side URL Library            https://youtu.be/IF4FeF-ufkQ, 2023-02-28
 YH-132, Libcurl HTTPS Get/HTTPS Post Request       https://youtu.be/6Ul0Lz5vNws, 2023-03-30
+YH-133, Libcurl SFTP Example                       https://youtu.be/AT54Q1A4xrI, 2023-09-23
+YH-134, Libcurl FTPS Example                       https://youtu.be/ZXuX03Jw4MQ, 2023-10-21
+YH-135, Libfuse Filesystem in Userspace            https://youtu.be/aMlX2x5N9Ak, 2023-11-24

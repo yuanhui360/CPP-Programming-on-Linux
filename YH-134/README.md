@@ -23,8 +23,8 @@ Linux filesystem concept.
 A filesystem is a method for storing and organizing data on a computer. In Linux, the file system is a crucial component of the operating system, responsible for managing data stored on disk and other storage devices.
 
 Linux File System : 
-# https://opensource.com/life/16/10/introduction-linux-filesystems
-# https://www.scaler.com/topics/linux-tutorial/file-system-of-linux/
-# https://opensource.com/life/16/10/introduction-linux-filesystems 
-# https://www.geeksforgeeks.org/linux-file-system/
-# https://tekrants.files.wordpress.com/2012/05/490px-fuse_structure-svg.png
+* https://opensource.com/life/16/10/introduction-linux-filesystems
+* https://www.scaler.com/topics/linux-tutorial/file-system-of-linux/
+* https://opensource.com/life/16/10/introduction-linux-filesystems 
+* https://www.geeksforgeeks.org/linux-file-system/
+* https://tekrants.files.wordpress.com/2012/05/490px-fuse_structure-svg.png

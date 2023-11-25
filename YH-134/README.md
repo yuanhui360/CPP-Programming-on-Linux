@@ -1,4 +1,4 @@
-This short video is going to discuss a new library, libfuse - Filesystem in userspace. 
+This example is going to discuss a new library, libfuse - Filesystem in userspace. 
 
 There are many academy terminology to define, explain and specify filesystem, in short words, Filesystem is Operating System manage how to store and retrieve your data using storage device.
 There are many type of storages devices, like disk drive, optical devices (CD ROM), Tape, USB, SSD and RAM devices.

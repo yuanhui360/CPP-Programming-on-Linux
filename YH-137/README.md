@@ -8,7 +8,7 @@ As we know libfuse offers 2 types API, high-level API and Low-level API.
 2) "low-level" asynchronous API. 
    work with inodes ( Index Node)
 
-This is one of very useful libfuse documentation page : https://libfuse.github.io/doxygen/index.html
-here is Index Node specification : https://docs.rackspace.com/docs/what-are-inodes-in-linux
-The video reference of this example can be found on my YouTube Channel : https://youtu.be/1hWWpttIGIQ
+* This is one of very useful libfuse documentation page : https://libfuse.github.io/doxygen/index.html
+* here is Index Node specification : https://docs.rackspace.com/docs/what-are-inodes-in-linux
+* The video reference of this example can be found on my YouTube Channel : https://youtu.be/1hWWpttIGIQ
 

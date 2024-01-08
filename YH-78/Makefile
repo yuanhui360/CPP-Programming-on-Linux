@@ -5,17 +5,17 @@ LDFLAGS = -lpthread -lrt
 all: mqueue_recv mqueue_send mqueue_notice
 
 mqueue_recv: mqueue_recv.o
-	$(CC) $(LDFLAGS) mqueue_recv.o -o mqueue_recv
+	$(CC) mqueue_recv.o -o mqueue_recv $(LDFLAGS)
 mqueue_recv.o: mqueue_recv.cpp
 	$(CC) $(CFLAGS) mqueue_recv.cpp
 
 mqueue_send: mqueue_send.o
-	$(CC) $(LDFLAGS) mqueue_send.o -o mqueue_send
+	$(CC) mqueue_send.o -o mqueue_send $(LDFLAGS)
 mqueue_send.o: mqueue_send.cpp
 	$(CC) $(CFLAGS) mqueue_send.cpp
 
 mqueue_notice: mqueue_notice.o
-	$(CC) $(LDFLAGS) mqueue_notice.o -o mqueue_notice
+	$(CC) mqueue_notice.o -o mqueue_notice $(LDFLAGS)
 mqueue_notice.o: mqueue_notice.cpp
 	$(CC) $(CFLAGS) mqueue_notice.cpp
 

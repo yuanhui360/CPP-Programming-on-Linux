@@ -5,17 +5,17 @@ LDFLAGS = -lcurl -lboost_json -lpthread -lboost_system  -lrestbed -lmongocxx -lb
 all: EchoGetPostWS curl_http_get curl_http_post
 
 EchoGetPostWS: EchoGetPostWS.o
-	$(CC) $(LDFLAGS) EchoGetPostWS.o -o EchoGetPostWS
+	$(CC) EchoGetPostWS.o -o EchoGetPostWS $(LDFLAGS)
 EchoGetPostWS.o: EchoGetPostWS.cpp
 	$(CC) $(CFLAGS) EchoGetPostWS.cpp
 
 curl_http_get: curl_http_get.o
-	$(CC) $(LDFLAGS) curl_http_get.o -o curl_http_get
+	$(CC) curl_http_get.o -o curl_http_get $(LDFLAGS)
 curl_http_get.o: curl_http_get.cpp
 	$(CC) $(CFLAGS) curl_http_get.cpp -o curl_http_get.o
 
 curl_http_post: curl_http_post.o
-	$(CC) $(LDFLAGS) curl_http_post.o -o curl_http_post
+	$(CC) curl_http_post.o -o curl_http_post $(LDFLAGS)
 curl_http_post.o: curl_http_post.cpp
 	$(CC) $(CFLAGS) curl_http_post.cpp -o curl_http_post.o
 

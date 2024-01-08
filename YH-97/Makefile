@@ -5,12 +5,12 @@ LDFLAGS =  -L/usr/local/lib -lprotobuf
 all: writePO readPO
 
 writePO: writePO.o Order.pb.o
-	$(CC) $(LDFLAGS) writePO.o Order.pb.o -o writePO
+	$(CC) writePO.o Order.pb.o -o writePO $(LDFLAGS)
 writePO.o: writePO.cpp
 	$(CC) $(CFLAGS) writePO.cpp -o writePO.o
 
 readPO: readPO.o Order.pb.o
-	$(CC) $(LDFLAGS) readPO.o Order.pb.o -o readPO
+	$(CC) readPO.o Order.pb.o -o readPO $(LDFLAGS)
 readPO.o: readPO.cpp
 	$(CC) $(CFLAGS) readPO.cpp -o readPO.o
 

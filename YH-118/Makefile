@@ -5,17 +5,17 @@ LDFLAGS = -lcrypto -lssl
 all: evp_display evp_file_encrypt evp_file_decrypt
 
 evp_display: evp_display.o evp_class.o
-	$(CC) $(LDFLAGS) evp_display.o evp_class.o -o evp_display
+	$(CC) evp_display.o evp_class.o -o evp_display $(LDFLAGS)
 evp_display.o: evp_display.cpp
 	$(CC) $(CFLAGS) evp_display.cpp -o evp_display.o
 
 evp_file_encrypt: evp_file_encrypt.o evp_class.o
-	$(CC) $(LDFLAGS) evp_file_encrypt.o evp_class.o -o evp_file_encrypt
+	$(CC) evp_file_encrypt.o evp_class.o -o evp_file_encrypt $(LDFLAGS)
 evp_file_encrypt.o: evp_file_encrypt.cpp
 	$(CC) $(CFLAGS) evp_file_encrypt.cpp -o evp_file_encrypt.o
 
 evp_file_decrypt: evp_file_decrypt.o evp_class.o
-	$(CC) $(LDFLAGS) evp_file_decrypt.o evp_class.o -o evp_file_decrypt
+	$(CC) evp_file_decrypt.o evp_class.o -o evp_file_decrypt $(LDFLAGS)
 evp_file_decrypt.o: evp_file_decrypt.cpp
 	$(CC) $(CFLAGS) evp_file_decrypt.cpp -o evp_file_decrypt.o
 

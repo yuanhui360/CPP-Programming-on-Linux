@@ -5,12 +5,12 @@ LDFLAGS = -lcrypto -lssl
 all: evp_readkey_file evp_generate_rsakey
 
 evp_generate_rsakey: evp_generate_rsakey.o evp_class.o
-	$(CC) $(LDFLAGS) evp_generate_rsakey.o evp_class.o -o evp_generate_rsakey
+	$(CC) evp_generate_rsakey.o evp_class.o -o evp_generate_rsakey $(LDFLAGS)
 evp_generate_rsakey.o: evp_generate_rsakey.cpp
 	$(CC) $(CFLAGS) evp_generate_rsakey.cpp -o evp_generate_rsakey.o
 
 evp_readkey_file: evp_readkey_file.o evp_class.o
-	$(CC) $(LDFLAGS) evp_readkey_file.o evp_class.o -o evp_readkey_file
+	$(CC) evp_readkey_file.o evp_class.o -o evp_readkey_file $(LDFLAGS)
 evp_readkey_file.o: evp_readkey_file.cpp
 	$(CC) $(CFLAGS) evp_readkey_file.cpp -o evp_readkey_file.o
 

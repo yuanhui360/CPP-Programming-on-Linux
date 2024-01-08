@@ -5,7 +5,7 @@ LDFLAGS =  -shared -Wl,--export-dynamic -lboost_python27 -L/usr/lib/python2.7/co
 all: MyPyLib.so
 
 MyPyLib.so: MyFunc.o
-	$(CC) $(LDFLAGS) MyFunc.o -o MyPyLib.so
+	$(CC) MyFunc.o -o MyPyLib.so $(LDFLAGS)
 MyFunc.o: MyFunc.cpp
 	$(CC) $(CFLAGS) MyFunc.cpp -o MyFunc.o
 

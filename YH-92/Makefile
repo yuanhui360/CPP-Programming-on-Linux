@@ -5,7 +5,7 @@ LDFLAGS = -lxerces-c-3.2 -std=c++11
 all: MySAXParser
 
 MySAXParser: MySAXParser.o MySAXHandler.o
-	$(CC) MySAXParser.o MySAXHandler.o $(LDFLAGS) -o MySAXParser
+	$(CC) MySAXParser.o MySAXHandler.o -o MySAXParser $(LDFLAGS)
 MySAXParser.o: MySAXParser.cpp
 	$(CC) $(CFLAGS) MySAXParser.cpp -o MySAXParser.o
 MySAXHandler.o: MySAXHandler.cpp

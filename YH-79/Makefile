@@ -5,7 +5,7 @@ LDFLAGS =  -lpthread -std=c++11
 all: myThreadReadFile
 
 myThreadReadFile: myThreadReadFile.o
-	$(CC) $(LDFLAGS) myThreadReadFile.o -o myThreadReadFile
+	$(CC) myThreadReadFile.o -o myThreadReadFile $(LDFLAGS)
 myThreadReadFile.o: myThreadReadFile.cpp
 	$(CC) $(CFLAGS) myThreadReadFile.cpp -o myThreadReadFile.o
 

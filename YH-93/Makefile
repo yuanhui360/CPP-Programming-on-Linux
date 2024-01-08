@@ -5,7 +5,7 @@ LDFLAGS = -lboost_json -lboost_system -std=c++11
 all: json_valid
 
 json_valid: json_valid.o
-	$(CC) $(LDFLAGS) json_valid.o  -o json_valid
+	$(CC) json_valid.o  -o json_valid $(LDFLAGS)
 json_valid.o: json_valid.cpp
 	$(CC) $(CFLAGS) json_valid.cpp -o json_valid.o
 

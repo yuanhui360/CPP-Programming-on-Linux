@@ -5,14 +5,14 @@ LDFLAGS = -lssh -pthread -L /usr/local/lib/x86_64-linux-gnu -lrabbitmq -lamqpcpp
 all: read_queue headers_publish
 
 read_queue: read_queue.o
-    $(CC) $(LDFLAGS) read_queue.o -o read_queue
+	$(CC) $(LDFLAGS) read_queue.o -o read_queue
 read_queue.o: read_queue.cpp
-    $(CC) $(CFLAGS) read_queue.cpp -o read_queue.o
+	$(CC) $(CFLAGS) read_queue.cpp -o read_queue.o
 
 headers_publish: headers_publish.o
-    $(CC) $(LDFLAGS) headers_publish.o -o headers_publish
+	$(CC) $(LDFLAGS) headers_publish.o -o headers_publish
 headers_publish.o: headers_publish.cpp
-    $(CC) $(CFLAGS) headers_publish.cpp -o headers_publish.o
+	$(CC) $(CFLAGS) headers_publish.cpp -o headers_publish.o
 
 clean:
-    rm -f *.o read_queue headers_publish
+	rm -f *.o read_queue headers_publish

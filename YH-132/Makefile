@@ -5,19 +5,19 @@ LDFLAGS = -lcurl -lboost_json -lpthread -lboost_system  -lrestbed -lmongocxx -lb
 all: EchoGetPostWS curl_https_get curl_https_post
 
 EchoGetPostWS: EchoGetPostWS.o
-    $(CC) $(LDFLAGS) EchoGetPostWS.o -o EchoGetPostWS
+	$(CC) $(LDFLAGS) EchoGetPostWS.o -o EchoGetPostWS
 EchoGetPostWS.o: EchoGetPostWS.cpp
-    $(CC) $(CFLAGS) EchoGetPostWS.cpp
+	$(CC) $(CFLAGS) EchoGetPostWS.cpp
 
 curl_https_get: curl_https_get.o
-    $(CC) $(LDFLAGS) curl_https_get.o -o curl_https_get
+	$(CC) $(LDFLAGS) curl_https_get.o -o curl_https_get
 curl_https_get.o: curl_https_get.cpp
-    $(CC) $(CFLAGS) curl_https_get.cpp -o curl_https_get.o
+	$(CC) $(CFLAGS) curl_https_get.cpp -o curl_https_get.o
 
 curl_https_post: curl_https_post.o
-    $(CC) $(LDFLAGS) curl_https_post.o -o curl_https_post
+	$(CC) $(LDFLAGS) curl_https_post.o -o curl_https_post
 curl_https_post.o: curl_https_post.cpp
-    $(CC) $(CFLAGS) curl_https_post.cpp -o curl_https_post.o
+	$(CC) $(CFLAGS) curl_https_post.cpp -o curl_https_post.o
 
 clean:
-    rm -f *.o EchoGetPostWS curl_https_get curl_https_post
+	rm -f *.o EchoGetPostWS curl_https_get curl_https_post

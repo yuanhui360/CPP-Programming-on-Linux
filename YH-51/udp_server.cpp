@@ -1,4 +1,4 @@
-include "udp_server.hpp"
+#include "udp_server.hpp"
 #include <cstdlib>
 #include <iostream>
 #include <boost/asio.hpp>
@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 
   try
   {
-    // 1) instantiate io_searvice
+    // 1) instantiate io_service
     // 2) make a customerized server
     // 3) start io_service
 

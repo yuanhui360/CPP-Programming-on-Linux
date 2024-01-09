@@ -5,19 +5,19 @@ LDFLAGS = -lfuse3
 all: my_fuse3 my_fuse3_ll my_fuse3_ll_cap
 
 my_fuse3: my_fuse3.o
-    $(CC) my_fuse3.o $(LDFLAGS) -o my_fuse3
+	$(CC) my_fuse3.o -o my_fuse3 $(LDFLAGS)
 my_fuse3.o: my_fuse3.cpp
-    $(CC) $(CFLAGS) my_fuse3.cpp
+	$(CC) $(CFLAGS) my_fuse3.cpp
 
 my_fuse3_ll: my_fuse3_ll.o
-    $(CC) my_fuse3_ll.o $(LDFLAGS) -o my_fuse3_ll
+	$(CC) my_fuse3_ll.o -o my_fuse3_ll $(LDFLAGS)
 my_fuse3_ll.o: my_fuse3_ll.cpp
-    $(CC) $(CFLAGS) my_fuse3_ll.cpp
+	$(CC) $(CFLAGS) my_fuse3_ll.cpp
 
 my_fuse3_ll_cap: my_fuse3_ll_cap.o
-    $(CC) my_fuse3_ll_cap.o $(LDFLAGS) -o my_fuse3_ll_cap
+	$(CC) my_fuse3_ll_cap.o -o my_fuse3_ll_cap $(LDFLAGS)
 my_fuse3_ll_cap.o: my_fuse3_ll_cap.cpp
-    $(CC) $(CFLAGS) my_fuse3_ll_cap.cpp
+	$(CC) $(CFLAGS) my_fuse3_ll_cap.cpp
 
 clean:
-    rm -f *.o my_fuse3 my_fuse3_ll my_fuse3_ll_cap
+	rm -f *.o my_fuse3 my_fuse3_ll my_fuse3_ll_cap

@@ -5,6 +5,7 @@ YH-29, C++ RESTful Web service (GET, GET with param),             https://youtu.
 YH-31, Setup MySql Connector/C++ on Debian Linux, https://youtu.be/6FWXh6O3knk
 YH-51, Boost Library – UDP Server Example,        https://youtu.be/q7RkO0sIaEg
 YH-55, SSH Client using libssh, https://youtu.be/fI6f8VbSmFQ, 2020-12-02
+YH-57, Simple SSL Client, https://youtu.be/xTJRdn4tznM 
 YH-59, Simple SSL Server/client, https://youtu.be/P18wPeWtYfQ
 YH-65, Postgresql DB Query Table using C++ Connector libpqxx, https://youtu.be/Y04aiv4opoA
 YH-66, AWS DynamoDB Examples (AWS-SDK), https://youtu.be/8tcvG8ATzAw

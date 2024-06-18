@@ -21,6 +21,31 @@ static void my_request_reply(struct evhttp_request *req, void *ctx)
      *   4) send HTTP reply
      *   5) free allocated memory
      */
+    struct evbuffer *reply = evbuffer_new();     // <-- Allocate storage for a new evbuffer.
+
+    const char *request_uri = evhttp_request_get_uri(req);
+    const char *request_host = evhttp_request_get_host(req);
+    struct evhttp_uri *parsed_uri = evhttp_uri_parse(request_uri);
+    if (!parsed_uri) {
+        evhttp_send_error(req, HTTP_BADREQUEST, 0);
+        return;
+    }
+
+    enum evhttp_cmd_type cmd = evhttp_request_get_command(req);
+    const char *cmd_type;
+    switch (cmd) {
+        case EVHTTP_REQ_GET: cmd_type = "GET"; break;
+        case EVHTTP_REQ_POST: cmd_type = "POST"; break;
+        case EVHTTP_REQ_HEAD: cmd_type = "HEAD"; break;
+        case EVHTTP_REQ_PUT: cmd_type = "PUT"; break;
+        case EVHTTP_REQ_DELETE: cmd_type = "DELETE"; break;
+        case EVHTTP_REQ_OPTIONS: cmd_type = "OPTIONS"; break;
+        case EVHTTP_REQ_TRACE: cmd_type = "TRACE"; break;
+        case EVHTTP_REQ_CONNECT: cmd_type = "CONNECT"; break;
+        case EVHTTP_REQ_PATCH: cmd_type = "PATCH"; break;
+        default: cmd_type = "unknown"; break;
+    }
+    printf("request  <%s> received, cmd type <%s> host : %s\n", request_uri, cmd_type, request_host);
 
     /*
      "<!DOCTYPE html>\n"
@@ -34,7 +59,24 @@ static void my_request_reply(struct evhttp_request *req, void *ctx)
      "</body>\n"
      "</html>\n");
      */
+    
+    evbuffer_add_printf(reply, "<!DOCTYPE html>\n"
+                               "<html lang=\"en\">"
+                               "<head>\n"
+                               "</head>\n"
+                               "<body>\n"
+                               "<div style=\"font-size: 36px; font-weight: bold; text-align: center; color: blue;\">\n"
+                               "Hui Test Libevent HTTP Server\n"
+                               "</div>\n"
+                               "</body>\n"
+                               "</html>\n");
 
+    evhttp_send_reply(req, HTTP_OK, NULL, reply);
+
+    if ( parsed_uri ) {
+        evhttp_uri_free(parsed_uri);
+    }
+    evbuffer_free(reply);
 }
 
 static void my_signal_event_cb(evutil_socket_t fd, short event, void *arg)

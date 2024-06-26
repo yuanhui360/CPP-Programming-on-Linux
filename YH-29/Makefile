@@ -6,14 +6,14 @@ LDFLAGS = -lm  -lrestbed -L/usr/lib/x86_64-linux-gnu -lmongocxx -lbsoncxx --std=
 all: myWebServiceGet myWebServiceGetParam
 
 myWebServiceGet: myWebServiceGet.o
-    $(CC) $(LDFLAGS) myWebServiceGet.o -o myWebServiceGet
+	$(CC) myWebServiceGet.o -o myWebServiceGet $(LDFLAGS)
 myWebServiceGet.o: myWebServiceGet.cpp
-    $(CC) $(CFLAGS) myWebServiceGet.cpp
+	$(CC) $(CFLAGS) myWebServiceGet.cpp
 
 myWebServiceGetParam: myWebServiceGetParam.o
-    $(CC) $(LDFLAGS) myWebServiceGetParam.o -o myWebServiceGetParam
+	$(CC) myWebServiceGetParam.o -o myWebServiceGetParam $(LDFLAGS)
 myWebServiceGetParam.o: myWebServiceGetParam.cpp
-    $(CC) $(CFLAGS) myWebServiceGetParam.cpp
+	$(CC) $(CFLAGS) myWebServiceGetParam.cpp
 
 clean:
-    rm -f *.o myWebServiceGet myWebServiceGetParam
+	rm -f *.o myWebServiceGet myWebServiceGetParam

@@ -62,3 +62,4 @@ YH-138, Libevent TCP client example                https://youtu.be/8JcuRrepBHs,
 YH-139, Libevent TCP Echo Server Example           https://youtu.be/pkFE64sgDOc, 2024-04-17
 YH-140, Libevent (evhttp) HTTP Server Example      https://youtu.be/p4t6IBiafwo, 2024-05-28
 YH-141, OpenSSL update from TCP to SSL/TLS         https://youtu.be/wrKUq5ORrBQ, 2024-06=11
+YH-142, Libevent Evhttp OpenSSL HTTP->HTTPS        https://youtu.be/5a3T-hv1-Ko, 2024-07-13

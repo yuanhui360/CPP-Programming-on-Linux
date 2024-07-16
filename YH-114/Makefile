@@ -1,6 +1,6 @@
 #
 # Hui test g++ Makefile on Linux
-# Note: After downloaded Makefile, it require to replace beginning line spaces to <tab>
+# Note: After downloaded Makefile, it requires to replace beginning line spaces to <tab>
 #
 
 CC=g++

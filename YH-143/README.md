@@ -14,3 +14,4 @@ Below ae link of MongoDB example and related video links:
 * https://youtu.be/Nq1bSyN8XsI  --- Query MongoDB through Restful Web Service
 * https://youtu.be/GKTItIcOb60  --- Connect to MongoDB
 * https://youtu.be/cdHg-PFSqHQ  ---  Query data from  MongoDB and Parse BSON Data
+* https://youtu.be/CTmahLPb-wQ  --- Connect to MongoDB Atlas Cloud Database

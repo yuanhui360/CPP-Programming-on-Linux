@@ -69,3 +69,4 @@ YH-145, Libevent Bufferevent TCP TLS Server        https://youtu.be/MC7b5nvGmBc,
 YH-146, Libevent Bufferevent TCP Proxy Server      https://youtu.be/n1M10fNdbs4, 2024-10-08
 YH-147, Libevent Evhttp HTTP Proxy Server Example  https://youtu.be/8C2lex3CJ5c, 2024-10-24
 YH-148, Convert OpenSSL Echo Server using wolfSSL  https://youtu.be/226OpnYQpG8, 2024-11-09
+YH-149, wolfCrypt AES CBC Encrypt Decrypt Example  https://youtu.be/wqc1oyMoOV0, 2024-12-05

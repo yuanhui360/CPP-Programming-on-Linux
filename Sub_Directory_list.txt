@@ -71,3 +71,5 @@ YH-147, Libevent Evhttp HTTP Proxy Server Example  https://youtu.be/8C2lex3CJ5c,
 YH-148, Convert OpenSSL Echo Server using wolfSSL  https://youtu.be/226OpnYQpG8, 2024-11-09
 YH-149, wolfCrypt AES CBC Encrypt Decrypt Example  https://youtu.be/wqc1oyMoOV0, 2024-12-05
 YH-150, wolfssl RSA Key and Certificate            https://youtu.be/U-5RF2cZAVw, 2025-02-02
+YH-151, Libusb list usb devices on system          https://youtu.be/0hOFyuE4eX8, 2025-04-01
+YH-152, Libusb Hotplug Event Notification          https://youtu.be/GhGFKC7vIvY, 2025-04-18

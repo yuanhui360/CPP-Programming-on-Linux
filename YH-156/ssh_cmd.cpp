@@ -71,7 +71,7 @@ int ssh_session_function( const struct TH_PARAM& inParam )
         if ( rc == SSH_OK ) {
             break;
         } else if ( rc == SSH_AGAIN ) {
-            printf("INFO: Retrying ssh_connect(%d) - %s\n", ssh_get_error_code(session), ssh_get_error(se
+            printf("INFO: Retrying ssh_connect(%d) - %s\n", ssh_get_error_code(session), ssh_get_error(session));
             waiting_socket_read_activity(ssh_get_fd(session));
             continue;
         }
@@ -90,7 +90,7 @@ int ssh_session_function( const struct TH_PARAM& inParam )
         if ( rc == SSH_AUTH_SUCCESS ) {
             break;
         } else if ( rc == SSH_AUTH_AGAIN ) {
-            printf("INFO: Retrying ssh_userauth_password(%d) - %s\n", ssh_get_error_code(session), ssh_ge
+            printf("INFO: Retrying ssh_userauth_password(%d) - %s\n", ssh_get_error_code(session), ssh_get_error(session));
             waiting_socket_read_activity(ssh_get_fd(session));
             continue;
         }
@@ -99,7 +99,7 @@ int ssh_session_function( const struct TH_PARAM& inParam )
 
     if (rc == SSH_AUTH_ERROR)
     {
-        printf("ERROR: ssh_userauth_password(%d) - %s\n", ssh_get_error_code(session), ssh_get_error(sess
+        printf("ERROR: ssh_userauth_password(%d) - %s\n", ssh_get_error_code(session), ssh_get_error(session));
         ssh_disconnect(session);
         ssh_free(session);
         return -1;

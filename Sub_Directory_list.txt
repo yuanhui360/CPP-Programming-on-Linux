@@ -78,3 +78,4 @@ YH-154, OpenSSL TLS Non Blocking client example    https://youtu.be/7-FyscjxVvk,
 YH-155, WolfSSL TLS Nonblocking client example     https://youtu.be/s_mBaH9FH4g, 2025-07-17
 YH-156, Libssh Non Blocking I/O Concept            https://youtu.be/ZZaEALzex30, 2025-08-13
 YH-157, Libssh C++ Wrapper Example                 https://youtu.be/LeK6El4oZMY, 2025-09-12
+YH-158, Libssh Openning a Remote Shell             https://youtu.be/i5GsY9rDvjM, 2025-10-02

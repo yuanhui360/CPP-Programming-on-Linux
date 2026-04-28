@@ -20,4 +20,9 @@ The "Z" in Z_PIXMAP stands for the "Z-axis" (depth).
 
  The Alternative: XY_PIXMAP is a Planar format.     It sends the image as a series of bitmaps (planes).
 
+The example code optimize:
+  1) libx11_stb_image.cpp and libxcb_stb_image.cpp have been adjusted after reviewed video, since function stbi_laod() return real image
+     width and height, so move this function call before create window function, so we can use correct windows width and height to open a X window.
+  2) function stbi_image_free(data) may cause memory crush if it has been place in wrong line, so for demo code, we just removed it.
+
  The video link of this example : https://youtu.be/lYo-OOGWaWo

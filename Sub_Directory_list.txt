@@ -86,3 +86,5 @@ YH-162, LibX11 X Window Graphic Example            https://youtu.be/-MP7M1P0msk,
 YH-163, LibX11 X window Graphic Load XBM Image     https://youtu.be/-bqYvK9vl70, 2026-03-11
 YH-164, Libxcb X C Binding Library Example         https://youtu.be/M0LaL_DFrNE, 2026-03-23
 YH-165, Libstb Load/decode JPG file To X API       https://youtu.be/lYo-OOGWaWo, 2026-04-17
+YH-166, RabbitMQ Upgrade to v4.3.0                 https://youtu.be/Bul6HDhgea8, 2026-05-21
+YH-167, RabbitMQ v4.3.0 Enable TLS/SSL             https://youtu.be/IYc7bOo0Q94, 2026-05-27

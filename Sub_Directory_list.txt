@@ -88,3 +88,4 @@ YH-164, Libxcb X C Binding Library Example         https://youtu.be/M0LaL_DFrNE,
 YH-165, Libstb Load/decode JPG file To X API       https://youtu.be/lYo-OOGWaWo, 2026-04-17
 YH-166, RabbitMQ Upgrade to v4.3.0                 https://youtu.be/Bul6HDhgea8, 2026-05-21
 YH-167, RabbitMQ v4.3.0 Enable TLS/SSL             https://youtu.be/IYc7bOo0Q94, 2026-05-27
+YH-168, Rabbitmq migrate amqpcpp C++ library 4.3.0 https://youtu.be/dLiXcPv_iBo, 2026-06-17

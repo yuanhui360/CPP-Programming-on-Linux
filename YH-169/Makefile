@@ -1,6 +1,8 @@
 #
 # Hui test g++ Makefile on Linux
 #
+# Note: It might require to replace front space characters with <TAB> after you downloaded this file
+#
 
 CC=g++
 CFLAGS=-c -Wall -g

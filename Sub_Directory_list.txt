@@ -91,3 +91,6 @@ YH-167, RabbitMQ v4.3.0 Enable TLS/SSL             https://youtu.be/IYc7bOo0Q94,
 YH-168, Rabbitmq migrate amqpcpp C++ library 4.3.0 https://youtu.be/dLiXcPv_iBo, 2026-06-17
 YH-169, RabbitMQ amqpcpp upgrade  to TLS/SSL       https://youtu.be/OK6dIqOidgE, 2026-06-25
 YH-170, RabbitMQ AMQP-CPP Async. client library    https://youtu.be/ORXZQ4LZB6A, 2026-07-25
+YH-171, RabbitMQ AMQP-CPP Library Consume Message  https://youtu.be/bHkcTBJaZRM, 2026-08-03
+YH-172, RabbitMQ AMQP-CPP Library Get Message      https://youtu.be/qAVaPT29QYw, 2026-08-09
+YH-173, RabbitMQ AMQP-CPP Library TCP To TLS/SSL   https://youtu.be/Zc6bfZpZlII, 2026-08-19

@@ -94,3 +94,5 @@ YH-170, RabbitMQ AMQP-CPP Async. client library    https://youtu.be/ORXZQ4LZB6A,
 YH-171, RabbitMQ AMQP-CPP Library Consume Message  https://youtu.be/bHkcTBJaZRM, 2026-08-03
 YH-172, RabbitMQ AMQP-CPP Library Get Message      https://youtu.be/qAVaPT29QYw, 2026-08-09
 YH-173, RabbitMQ AMQP-CPP Library TCP To TLS/SSL   https://youtu.be/Zc6bfZpZlII, 2026-08-19
+YH-174, Libev ev_stat File Monitor Example CAPI    https://youtu.be/QP-cXgRqcpQ, 2026-09-26
+YH-175, Libev ev::stat using C++ Wrapper Class     https://youtu.be/mYoqrcvLwk8, 2026-10-09

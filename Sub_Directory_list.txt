@@ -97,3 +97,4 @@ YH-173, RabbitMQ AMQP-CPP Library TCP To TLS/SSL   https://youtu.be/Zc6bfZpZlII,
 YH-174, Libev ev_stat File Monitor Example CAPI    https://youtu.be/QP-cXgRqcpQ, 2026-09-26
 YH-175, Libev ev::stat using C++ Wrapper Class     https://youtu.be/mYoqrcvLwk8, 2026-10-09
 YH-176, Libev Inter Thread communication ev_async  https://youtu.be/m75kvCCI2Wg, 2026-10-20
+YH-177, Libev ev_fork Inter Process event loop     https://youtu.be/2OSxWDehm6c, 2026-11-07
